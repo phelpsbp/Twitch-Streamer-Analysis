@@ -3,6 +3,8 @@
 ## Overview
 This project focuses on analyzing Twitch streaming data to uncover insights into streamer performance metrics, viewer engagement, and the impact of partnership status on streamers' popularity and watch time. The project includes detailed data visualization and exploratory data analysis (EDA) to identify key attributes of successful Twitch streamers.
 
+You can view the project [here](https://phelpsbp.github.io/Twitch-Streamer-Analysis/)
+
 ## Technologies Used
 - Python
 - Pandas for data manipulation
