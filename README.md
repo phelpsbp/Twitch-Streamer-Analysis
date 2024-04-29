@@ -42,14 +42,6 @@ Key metrics in the dataset include:
 - **Followers gained**
 - **Views gained**
 
-
-## Features
-- **Data Cleaning and Preprocessing**: Ensuring the data integrity by cleaning and preprocessing the dataset.
-- **Exploratory Data Analysis (EDA)**: Analysis of various metrics such as watch times, followers gained, and streaming hours.
-- **Visualization**: Visual representation of data using libraries like Matplotlib and Seaborn to better understand the trends and distributions.
-- **Comparative Analysis**: Comparison between partnered and non-partnered Twitch channels to assess the impact of partnership status.
-
-
 ## Installation
 To set up this project locally, follow the steps below:
 1. Clone the repository:
