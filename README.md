@@ -1,71 +1,65 @@
 # Twitch Streamer Analysis
 
-## Overview
-This project focuses on analyzing Twitch streaming data to uncover insights into streamer performance metrics, viewer engagement, and the impact of partnership status on streamers' popularity and watch time. The project includes detailed data visualization and exploratory data analysis (EDA) to identify key attributes of successful Twitch streamers.
+## Introduction
 
-You can view the project [here](https://phelpsbp.github.io/Twitch-Streamer-Analysis/)
+This project analyzes Twitch streaming data to understand streamer performance metrics and viewer engagement. It compares the performance of partnered and non-partnered streamers.
 
-## Technologies Used
+## Quick Links
+
+- [Streamer Project Webpage]([https://phelpsbp.github.io/Twitch-Streamer-Analysis/](https://phelpsbp.github.io/Twitch-Streamer-Analysis/)
+
+## Project Overview
+
+This project uses a dataset of the top 1000 Twitch streamers to analyze various metrics like watch time, followers gained, and streaming hours. The goal is to identify patterns and trends that can inform streamers and marketers.
+
+### Business Questions
+
+1. **How does partnership status affect streamer performance?**
+2. **What are the key metrics that correlate with high follower counts?**
+3. **What insights can we gain about viewer engagement from streaming data?**
+
+## Methodology
+
+1. **Data Loading and Preparation**: 
+   - Load the dataset and clean it to handle missing or inconsistent values.
+2. **Exploratory Data Analysis (EDA)**:
+   - Use summary statistics and visualizations to explore the data.
+   - Identify correlations between different metrics.
+3. **Categorical Data Analysis**:
+   - Analyze categorical features like `Partnered`, `Mature`, and `Language`.
+   - Understand the distribution and impact of these categories on performance.
+4. **Top Channels Analysis**:
+   - Identify the top 50 channels based on followers and views.
+   - Analyze the common characteristics of these top channels.
+
+### Tools Used: 
 - Python
 - Pandas for data manipulation
 - Matplotlib and Seaborn for data visualization
 - Jupyter Notebook
 
-## Features
-- **Data Cleaning and Preprocessing**: Ensuring the data integrity by cleaning and preprocessing the dataset.
-- **Exploratory Data Analysis (EDA)**: Examination of various metrics such as watch times, followers gained, and streaming hours to uncover underlying patterns.
-- **Visualization**: Utilizing Python libraries like Matplotlib and Seaborn to create insightful visual representations of the data.
-- **Comparative Analysis**: Comparing partnered and non-partnered Twitch channels to assess the impact of partnership status on streamers' metrics.
+## Results
+1. **Partnership Status**: Being partnered with Twitch leads to more visibility and additional features. The length of time a stream is watched has the strongest link with follower count and growth, suggesting that longer watch times are a major factor in channel popularity.
+2. **Content Accessibility**: Channels that avoid 'Mature' ratings and produce more accessible content tend to reach a wider audience.
+3. **Language Use**: English is the dominant language among top channels. 
+4. **Engagement Metrics**: Metrics like peak viewership and average viewers are vital for assessing a channel's ability to attract and keep a large audience, which is important for long-term popularity and success.
+5. **Streaming Duration**: Longer streaming sessions do not necessarily lead to higher engagement rates. There is a slight negative trend between stream duration and followers gained.
 
-## Dataset
-The dataset comprises metrics for the top 1000 Twitch streamers, focusing on various aspects of streaming performance.
+## Recommendations
+Based on the analysis, these are the following recommendations I'd give to aspiring streamers:
 
-### Obtaining the Dataset
-The dataset is available on Kaggle and can be downloaded using the following link:
-- [Twitch Streamers Dataset on Kaggle](https://www.kaggle.com/datasets/aayushmishra1512/twitchdata)
+1. Secure partnership status to leverage Twitch's platform features.
+2. Prioritize quality in terms of content creation rather than the length of content to ensure longer watch times.
+3. Produce content that is accessible to a wider audience, avoiding restrictive ratings where possible.
+4. Utilize English to maximize reach but also consider multilingual content to tap into non-English speaking demographics.
 
-This dataset is under the [Creative Commons Public Domain Dedication (CC0)](https://creativecommons.org/publicdomain/zero/1.0/).
+## Acknowledgments & References
 
-### Using the Dataset
-Place the downloaded `twitchdata-update.csv` file in the root directory of the project. Load the dataset using:
-```python
-import pandas as pd
-twitch_data = pd.read_csv('twitchdata-update.csv')
-```
+- Data: [Twitch Streamers Dataset on Kaggle](https://www.kaggle.com/datasets/aayushmishra1512/twitchdata)
+- License: [MIT License](LICENSE.md).
 
-### Dataset Description
-Key metrics in the dataset include:
-- **Channel**: Name of the Twitch channel
-- **Watch time(Minutes)**
-- **Stream time(Minutes)**
-- **Followers**
-- **Followers gained**
-- **Views gained**
+## Contact Information
 
-## Installation
-To set up this project locally, follow the steps below:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/phelpsbp/Twitch-Streamer-Analysis.git
-   ```
-2. Install required Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-After installation, you can run the Jupyter notebook `Twitch Streamer Analysis.ipynb` to view the analysis and visualizations:
-```bash
-jupyter notebook Twitch\ Streamer\ Analysis.ipynb
-```
-
-## Contributions
-Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-This project is licensed under the [MIT License](LICENSE.md).
-
-## Authors
-- **Brittany Phelps** - *Initial work* - [BrittanyPhelps](https://github.com/phelpsbp)
-
-----
+- **Email**: [phelpsbp@gmail.com](mailto:phelpsbp@gmail.com)
+- **LinkedIn**: [Brittany Phelps](https://www.linkedin.com/in/brittany-everette/)
+- **GitHub**: [phelpsbp](https://github.com/phelpsbp)
