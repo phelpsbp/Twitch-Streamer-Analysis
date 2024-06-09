@@ -6,7 +6,7 @@ This project analyzes Twitch streaming data to understand streamer performance m
 
 ## Quick Links
 
-- [Streamer Project Webpage]([https://phelpsbp.github.io/Twitch-Streamer-Analysis/](https://phelpsbp.github.io/Twitch-Streamer-Analysis/)
+- [Streamer Project Webpage](https://phelpsbp.github.io/Twitch-Streamer-Analysis/](https://phelpsbp.github.io/Twitch-Streamer-Analysis/)
 
 ## Project Overview
 
