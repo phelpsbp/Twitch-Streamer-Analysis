@@ -6,8 +6,7 @@ This project analyzes Twitch streaming data to understand streamer performance m
 
 ## Quick Links
 
-- [Streamer Project Webpage](https://phelpsbp.github.io/Twitch-Streamer-Analysis/](https://phelpsbp.github.io/Twitch-Streamer-Analysis/)
-
+- [Streamer Project Webpage](https://phelpsbp.github.io/Twitch-Streamer-Analysis/)
 ## Project Overview
 
 This project uses a dataset of the top 1000 Twitch streamers to analyze various metrics like watch time, followers gained, and streaming hours. The goal is to identify patterns and trends that can inform streamers and marketers.
